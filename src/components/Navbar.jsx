@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import logo from '../assets/logo.png'
 import {NAVIGATION_LINKS} from '../constants'
 
-const navbar = () => {
-    conts[isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+const Navbar = () => {
+    const[isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     const toogleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -38,14 +38,51 @@ const navbar = () => {
                       </div>
                       <div>
                           <ul className='flex items-center gap-4'>
-                              {NAVIGATION_LINKS.map((item, index))}
+                              {NAVIGATION_LINKS.map((item, index) => (
+                                  <li key={index}>
+                                      <a className='text-sm hover:text-yellow-400' href={item.href} onClick={(e) => handleLinkClick(e, item.href)}>
+                                          {item.label}
+                                      </a>
+                                  </li>
+                              ))}
                           </ul>
                       </div>
                   </div>
+              </div>
+              {/* Mobile Menu */}
+              <div className='rounded-lg backdrop-blur-md lg:hidden'>
+                  <div className='flex items-center justify-between'>
+                      <div>
+                          <a href="#">
+                              <img src={logo} width={90} alt="logo" className='m-2' />
+                          </a>
+                      </div>
+                      <div className='flex items-center'>
+                          <button className='focus:outline-none lg:hidden'
+                              onClick={toogleMobileMenu}>
+                              {isMobileMenuOpen ? (
+                                    <FaTimes className='m-2 h-6 w-5' />
+                              ) : (
+                                    <FaBars className='m-2 h-6 w-5' />
+                              )}
+                          </button>
+                      </div>
+                  </div>
+                  {isMobileMenuOpen && (
+                      <ul className='ml-4 mt-4 flex flex-col gap-4 backdrop-blur-md'>
+                          {NAVIGATION_LINKS.map((item, index) => (
+                              <li key={index}>
+                                  <a className='block w-full text-xl font-semibold' href={item.href} onClick={(e) => handleLinkClick(e, item.href)}>
+                                      {item.label}
+                                  </a>
+                              </li>
+                          ))}
+                      </ul>
+                  )}
               </div>
           </nav>
     </div>
   )
 }
 
-export default navbar
+export default Navbar
