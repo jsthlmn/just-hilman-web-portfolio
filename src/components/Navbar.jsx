@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import logo from '../assets/logo.png'
-import {NAVIGATION_LINKS} from '../constants'
+import { NAVIGATION_LINKS } from '../constants'
+import { FaBars } from 'react-icons/fa6'
+import { FaTimes } from 'react-icons/fa'
 
 const Navbar = () => {
     const[isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -58,8 +60,7 @@ const Navbar = () => {
                           </a>
                       </div>
                       <div className='flex items-center'>
-                          <button className='focus:outline-none lg:hidden'
-                              onClick={toogleMobileMenu}>
+                          <button className='focus:outline-none lg:hidden'onClick={toogleMobileMenu}>
                               {isMobileMenuOpen ? (
                                     <FaTimes className='m-2 h-6 w-5' />
                               ) : (
