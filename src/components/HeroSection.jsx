@@ -11,7 +11,7 @@ const HeroSection = () => {
             <h1 className="text-5xl font-semibold uppercase tracking-wide md:text-7xl">
               {PROFILE.name}
             </h1>
-          <p className="pt-2 font-semibold">{PROFILE.info}</p>
+            <p className="pt-2 font-semibold">{PROFILE.info}</p>
           </div>
         </div>
       </>
