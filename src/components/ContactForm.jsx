@@ -1,4 +1,5 @@
 import { useState } from "react"
+import emailjs from '@emailjs/browser'
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
@@ -29,6 +30,22 @@ const ContactForm = () => {
         }
         if (!formData.message) errors.message = 'Message is required';
         return errors;
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const validationErrors = validate();
+        if (Object.keys(validationErrors).length > 0) {
+            setErrors(validationErrors);
+        } else {
+            setErrors({});
+            setIsSending(true);
+
+            emailjs
+                .send(
+                    
+                )
+        }
     }
     return (
         <div>ContactForm</div>

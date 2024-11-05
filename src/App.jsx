@@ -1,5 +1,6 @@
 import About from './components/About'
 import Achievements from './components/Achievements'
+import ContactForm from './components/ContactForm'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
@@ -16,6 +17,7 @@ const App = () => {
       <Skills />
       <Achievements />
       <Testimonials />
+      <ContactForm />
     </main>
   )
 }
