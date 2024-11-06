@@ -1,5 +1,6 @@
 import { useState } from "react"
 import emailjs from '@emailjs/browser'
+import toast from "react-hot-toast";
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
@@ -42,9 +43,24 @@ const ContactForm = () => {
             setIsSending(true);
 
             emailjs
-                .send(
-                    
-                )
+            .send(
+                'service_zg3142c',
+                'template_jr1ct17',
+                formData,
+                'itDh3lQ6L34AjKAb8'
+            )
+            .then((response) => {
+                console.log("SUCCESS!", response.status, response.text);
+                toast.success("Message sent successfully");
+                setFormData({ name: "", email: "", message: "" });
+            })
+            .catch((error) => {
+                console.log("FAILED...", error)
+                toast.error("Failed to send message");
+            })
+            .finally(() => {
+                setIsSending(false);
+            })
         }
     }
     return (
