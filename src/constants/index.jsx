@@ -38,39 +38,39 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const PROFILE = {
-  name: "Robert Butcher",
-  info: "Full-stack developer with a flair for graphic design.",
+  name: "Just Hilman ",
+  info: "Python Developer Specializing in Data Engineering for Machine Learning Solutions.",
 };
 
 export const ABOUT = {
   text1:
-    "I create dynamic, responsive websites that blend creativity with efficiency",
+    "I create dynamic, full-stack applications using Python",
   text2:
-    "Hello! I'm Robert Butcher, a full-stack developer with a flair for graphic design. I thrive on crafting web experiences that are not only visually stunning but also highly functional and user-friendly. My passion for detail ensures that every project is polished and professional. Beyond coding, I'm an avid explorer of new cultures and cuisines. My curiosity drives me to stay on the cutting edge of technology and design trends, bringing innovative and practical solutions to every challenge. Whether I'm developing a sleek website or diving into the latest tech, I am dedicated to delivering excellence in every project.",
+    "Hello! I'm Hilman, a Python Full-Stack Developer with a passion for creating efficient, scalable applications. I specialize in building robust back-end solutions and crafting intuitive front-end experiences, ensuring that every project is both functional and user-friendly. With a keen eye for detail and a commitment to clean, optimized code, I thrive on solving complex challenges and delivering seamless, high-performing solutions. Outside of coding, I'm always exploring new technologies and trends to stay at the forefront of the industry. Whether it's developing a dynamic web app or enhancing a data pipeline, I'm dedicated to delivering excellence in every project.",
 };
 
 export const PROJECTS = [
   {
-    title: "E-commerce Platform",
+    title: "AI Chatbot",
     subtitle:
-      "A full-stack e-commerce platform built with React, Node.js, and MongoDB.",
+      "A full-stack chatbot built with Django, OpenAI, and MongoDB.",
     image: image1,
   },
   {
     title: "Social Media App",
     subtitle:
-      "A social media application developed using Next.js and Firebase.",
+      "A social media application developed using Django and Firebase.",
     image: image2,
   },
   {
-    title: "Project Management Tool",
+    title: "Netflix Clone",
     subtitle: "A project management tool built with Django and PostgreSQL.",
     image: image3,
   },
   {
-    title: "Personal Portfolio",
+    title: "Diabetes Prediction App",
     subtitle:
-      "A personal portfolio website designed with HTML, CSS, and JavaScript.",
+      "A personal portfolio website that can predict diabetes, built with Flask.",
     image: image4,
   },
   {
@@ -86,8 +86,8 @@ export const PROJECTS = [
     image: image6,
   },
   {
-    title: "Fitness Tracker",
-    subtitle: "A fitness tracking app created using Flutter and Firebase.",
+    title: "Spotify Clone",
+    subtitle: "A Spotify clone app developed with React and Django.",
     image: image7,
   },
   {
@@ -170,27 +170,27 @@ export const TESTIMONIALS = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
+    href: "https://facebook.com/jsthlmn",
     icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://discord.com/jsthlmn",
     icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://instagram.com/jsthlmn",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://x.com/jsthlmn",
     icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://github.com/",
+    href: "https://github.com/jsthlmn",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/jsthlmn",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
