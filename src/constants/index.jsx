@@ -34,7 +34,7 @@ export const NAVIGATION_LINKS = [
   { label: "Skills", href: "#skills" },
   { label: "Award", href: "#award" },
   { label: "Testimonials", href: "#testimonials" },
-  { label: "Contact", href: "#contact" },
+  { label: "Contact", href: "#contact" }
 ];
 
 export const PROFILE = {
