@@ -3,6 +3,7 @@ import { SOCIAL_MEDIA_LINKS } from '../constants'
 import { motion } from 'framer-motion'
 
 const Footer = () => {
+    let date = new Date().getFullYear();
     return (
         <div className='mb-8 mt-20'>
             <div className='flex items-center justify-center'>
@@ -23,7 +24,7 @@ const Footer = () => {
                 ))}
             </div>
             <p className='mt-8 text-center text-sm tracking-wide text-gray-400'>
-                &copy;JustHilman. All Rights Reserved.
+                &copy;JustHilman. All Rights Reserved {date}
             </p>
         </div>
     )
