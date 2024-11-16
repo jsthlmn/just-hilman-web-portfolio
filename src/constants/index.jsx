@@ -10,7 +10,7 @@ import {
 import { DiPython } from "react-icons/di";
 import { SiDjango } from "react-icons/si";
 import { SiApachehadoop } from "react-icons/si";
-import { RiReactjsLine } from "react-icons/ri";
+import { SiMongodb } from "react-icons/si";
 import { GrDocker } from "react-icons/gr";
 import { BiLogoPostgresql } from "react-icons/bi";
 
@@ -32,7 +32,7 @@ export const NAVIGATION_LINKS = [
   { label: "About", href: "#about" },
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
-  { label: "Award", href: "#award" },
+  { label: "Blog", href: "#award" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "Contact", href: "#contact" }
 ];
@@ -46,7 +46,7 @@ export const ABOUT = {
   text1:
     "I create dynamic, full-stack applications using Python",
   text2:
-    "Hello! I'm Hilman, a Python Full-Stack Developer with a passion for creating efficient, scalable applications. I specialize in building robust back-end solutions and crafting intuitive front-end experiences, ensuring that every project is both functional and user-friendly. With a keen eye for detail and a commitment to clean, optimized code, I thrive on solving complex challenges and delivering seamless, high-performing solutions. Outside of coding, I'm always exploring new technologies and trends to stay at the forefront of the industry. Whether it's developing a dynamic web app or enhancing a data pipeline, I'm dedicated to delivering excellence in every project.",
+    "Hello! I'm Hilman, a Python Developer and Data Engineer with a passion for building efficient, scalable data pipelines and solutions. I specialize in transforming raw data into actionable insights by designing robust ETL processes and optimizing data workflows for high performance. With a strong focus on data integrity and a commitment to clean, maintainable code, I thrive on solving complex data challenges and enabling seamless data integration. Outside of work, I continuously explore new tools and technologies to stay ahead in the rapidly evolving world of data engineering. Whether it's architecting a scalable data platform or fine-tuning pipelines for real-time analytics, I am dedicated to delivering excellence in every project.",
 };
 
 export const PROJECTS = [
@@ -64,7 +64,7 @@ export const PROJECTS = [
   },
   {
     title: "Netflix Clone",
-    subtitle: "A project management tool built with Django and PostgreSQL.",
+    subtitle: "A netflix clone built with Django and PostgreSQL.",
     image: image3,
   },
   {
@@ -76,13 +76,13 @@ export const PROJECTS = [
   {
     title: "Weather Dashboard",
     subtitle:
-      "A weather dashboard application built with Vue.js and Express.js.",
+      "A weather dashboard application built with React.js and Django.",
     image: image5,
   },
   {
     title: "Blog Platform",
     subtitle:
-      "A blogging platform developed with Ruby on Rails and PostgreSQL.",
+      "A blogging platform developed with Python, React and PostgreSQL.",
     image: image6,
   },
   {
@@ -99,34 +99,34 @@ export const PROJECTS = [
 
 export const SKILLS = [
   {
-    icon: <DiPython className="text-4xl lg:text-6xl text-cyan-400" />,
+    icon: <DiPython className="text-4xl lg:text-6xl text-blue-400" />,
     name: "Python",
     experience: "3+ years",
   },
   {
     icon: <SiDjango className="text-4xl lg:text-6xl text-green-400" />,
     name: "Django",
+    experience: "1.5+ years",
+  },
+  {
+    icon: <SiApachehadoop className="text-4xl lg:text-6xl text-yellow-400" />,
+    name: "Apache Hadoop",
     experience: "1+ year",
   },
   {
-    icon: <RiReactjsLine className="text-4xl lg:text-6xl text-cyan-400" />,
-    name: "React",
+    icon: <BiLogoPostgresql className="text-4xl lg:text-6xl text-sky-400" />,
+    name: "PostgreSQL",
+    experience: "2+ years",
+  },
+  {
+    icon: <SiMongodb className="text-4xl lg:text-6xl text-green-600" />,
+    name: "MongoDB",
     experience: "2+ years",
   },
   {
     icon: <GrDocker className="text-4xl lg:text-6xl text-sky-400" />,
     name: "Docker",
     experience: "1+ years",
-  },
-  {
-    icon: <SiApachehadoop className="text-4xl lg:text-6xl text-yellow-400" />,
-    name: "Apache Hadoop",
-    experience: "1.5+ years",
-  },
-  {
-    icon: <BiLogoPostgresql className="text-4xl lg:text-6xl text-sky-400" />,
-    name: "PostgreSQL",
-    experience: "2+ year",
   },
 ];
 

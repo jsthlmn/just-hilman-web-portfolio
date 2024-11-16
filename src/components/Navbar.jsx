@@ -42,7 +42,7 @@ const Navbar = () => {
                             <ul className='flex items-center gap-4'>
                                 {NAVIGATION_LINKS.map((item, index) => (
                                     <li key={index}>
-                                        <a className='text-sm hover:text-yellow-400' href={item.href} onClick={(e) => handleLinkClick(e, item.href)}>
+                                        <a className='text-sm navbar' href={item.href} onClick={(e) => handleLinkClick(e, item.href)}>
                                             {item.label}
                                         </a>
                                     </li>
@@ -73,7 +73,7 @@ const Navbar = () => {
                         <ul className='ml-4 mt-4 flex flex-col gap-4 backdrop-blur-md'>
                             {NAVIGATION_LINKS.map((item, index) => (
                                 <li key={index}>
-                                    <a className='block w-full text-xl font-semibold' href={item.href} onClick={(e) => handleLinkClick(e, item.href)}>
+                                    <a className='block w-full text-xl font-semibold navbar-mobile' href={item.href} onClick={(e) => handleLinkClick(e, item.href)}>
                                         {item.label}
                                     </a>
                                 </li>
