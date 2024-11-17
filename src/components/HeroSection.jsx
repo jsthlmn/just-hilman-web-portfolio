@@ -1,5 +1,5 @@
 import { PROFILE } from "../constants"
-import profilePic from "../assets/robertButcher1.jpg";
+import profilePic from "../assets/bg-hlmn.png";
 import { motion } from 'framer-motion';
 
 const HeroSection = () => {

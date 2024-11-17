@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='flex items-center justify-center'>
                 <motion.figure initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1.5, delay: 1 }}>
                     <img src={logo} alt="logo" width={200} className='mb-2' />
-                    <div className='mb-10 h-3 w-12 bg-yellow-400'></div>
+                    <div className='mb-10 h-2 w-22 bg-yellow-500'></div>
                 </motion.figure>
             </div>
             <div className='flex items-center justify-center gap-8'>

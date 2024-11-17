@@ -25,7 +25,7 @@ const Testimonials = () => {
                     <motion.div
                         variants={itemVariants}
                         key={index}
-                        className="mx-4 mb-8 flex flex-col items-center rounded-lg border border-dotted border-gray-600 p-6 md:flex-row">
+                        className="mx-4 mb-8 flex flex-col items-center rounded-lg border border-dotted border-[#00abf0] p-6 md:flex-row">
                         <img src={testimonial.image} alt={testimonial.name} className="mb-4 mr-6 h-16 w-16 rounded-full md:mb-0" />
                         <div>
                             <p className="mb-4 italic">"{testimonial.quote}"</p>

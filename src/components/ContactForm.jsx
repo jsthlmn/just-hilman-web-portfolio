@@ -68,7 +68,7 @@ const ContactForm = () => {
         <div className="mx-auto max-w-3xl p-4" id="contact">
             <Toaster />
             <h2 className="my-8 text-center text-4xl font-semibold tracking-tighter">
-                Let's Connect
+                Contact Me
             </h2>
             <motion.form
                 initial={{ opacity: 0 }}
@@ -79,7 +79,7 @@ const ContactForm = () => {
                     <input type="text" id="name" name="name" value={formData.name}
                         placeholder="Name" onChange={handleChange}
                         className="mb-8 w-full appearance-none rounded-lg 
-                        border border-gray-900 bg-transparent px-3 py-2 text-sm
+                        border border-[#00abf0] bg-transparent px-3 py-2 text-sm
                         focus:border-gray-400 focus:ouline-none" />
                     {errors.name && (
                         <motion.p
@@ -94,7 +94,7 @@ const ContactForm = () => {
                     <input type="email" id="email" name="email" value={formData.email}
                         placeholder="Email" onChange={handleChange}
                         className="mb-8 w-full appearance-none rounded-lg 
-                        border border-gray-900 bg-transparent px-3 py-2 text-sm
+                        border border-[#00abf0] bg-transparent px-3 py-2 text-sm
                         focus:border-gray-400 focus:ouline-none" />
                     {errors.email && (
                         <motion.p
@@ -109,7 +109,7 @@ const ContactForm = () => {
                     <textarea id="message" name="message" value={formData.message}
                         placeholder="Message" onChange={handleChange}
                         className="mb-8 w-full appearance-none rounded-lg 
-                        border border-gray-900 bg-transparent px-3 py-2 text-sm
+                        border border-[#00abf0] bg-transparent px-3 py-2 text-sm
                         focus:border-gray-400 focus:ouline-none" rows="4" />
                     {errors.message && (
                         <motion.p
@@ -120,8 +120,8 @@ const ContactForm = () => {
                         </motion.p>
                     )}
                 </div>
-                <button type="submit" className={`mb-8 w-full rounded bg-yellow-400 
-                    px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-yellow-500
+                <button type="submit" className={`mb-8 w-full rounded bg-yellow-500
+                    px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-yellow-400
                     ${isSending ? 'cursor-not-allowed opacity-50' : ''}`} disabled={isSending}>
                     
                     {isSending ? 'Sending...' : 'Send Message'}</button>

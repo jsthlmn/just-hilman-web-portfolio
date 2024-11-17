@@ -32,7 +32,7 @@ export const NAVIGATION_LINKS = [
   { label: "About", href: "#about" },
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
-  { label: "Blog", href: "#award" },
+  { label: "Blog", href: "#blog" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "Contact", href: "#contact" }
 ];
@@ -131,10 +131,10 @@ export const SKILLS = [
 ];
 
 export const ACHIEVEMENT = {
-  title: "International Hackaton - Tokyo",
-  award: "Gold Medalist - 2024",
+  title: "Will AI Replace Humans? A Glimpse Into the Future of Work and Society",
+  award: "Hilman - 2024",
   description:
-    "Winner of the 2024 Algo coding representing the University of Oxford. This achievement showcases exceptional problem-solving skills and dedication. The event provided a platform to innovate and collaborate with the brightest minds, resulting in a prestigious accolade.",
+    "I’ve often wondered about the impact AI will have on our lives and careers. While it’s true that AI is reshaping industries, I believe it’s less about replacement and more about transformation. AI can take over repetitive tasks, freeing us to focus on creativity, strategy, and empathy—things that make us uniquely human.",
 };
 
 export const TESTIMONIALS = [
