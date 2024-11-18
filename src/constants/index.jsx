@@ -33,7 +33,7 @@ export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "Blog", href: "#blog" },
-  { label: "Testimonials", href: "#testimonials" },
+  { label: "Trivia", href: "#testimonials" },
   { label: "Contact", href: "#contact" }
 ];
 
@@ -139,31 +139,31 @@ export const ACHIEVEMENT = {
 
 export const TESTIMONIALS = [
   {
-    name: "Emily Johnson",
-    title: "CEO, Tech Innovators",
+    name: "Fei Fei Li",
+    title: "Chief Scientist of AI/ML, Google",
     quote:
-      "Working with Robert has been an incredible experience. His design sensibilities and technical expertise are top-notch, making him a valuable asset to any project.",
+      "If Data is the new oil, then AI is the new engine",
     image: user1,
   },
   {
-    name: "Michael Lee",
-    title: "CTO, Creative Minds",
+    name: "Elon Musk",
+    title: "CEO, Tesla",
     quote:
-      "Robert consistently delivers high-quality work, combining creativity and technical prowess. His ability to solve complex problems with elegant solutions is truly impressive.",
+      "Engineering is the closest thing to magic that exists in the world.",
     image: user2,
   },
   {
-    name: "Sophia Martinez",
-    title: "Lead Developer, Digital Solutions",
+    name: "Steve Jobs",
+    title: "Co-Founder, Apple",
     quote:
-      "Robert's dedication to his craft is evident in every project he undertakes. His innovative approach and attention to detail set him apart as a leading designer and developer.",
+      "Technology is nothing. What’s important is that you have faith in people, that they’re basically good and smart, and if you give them tools, they’ll do wonderful things with them.",
     image: user3,
   },
   {
-    name: "Daniel Thompson",
-    title: "Project Manager, InnovateX",
+    name: "- Unknown",
+    title: "",
     quote:
-      "Robert's ability to understand client needs and translate them into beautiful, functional designs is remarkable. He is a true professional who always exceeds expectations.",
+      "Never let a computer know you’re in a hurry.",
     image: user4,
   },
 ];

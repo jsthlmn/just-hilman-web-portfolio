@@ -14,7 +14,7 @@ const itemVariants = {
 const Testimonials = () => {
     return (
         <div id="testimonials" className="container mx-auto mt-20 py-16 tracking-tighter">
-            <h2 className="mb-12 text-center text-4xl font-semibold">What People Say</h2>
+            <h2 className="mb-12 text-center text-4xl font-semibold">Tech-Stack Trivia</h2>
             <motion.div
                 initial='hidden'
                 whileInView='visible'
