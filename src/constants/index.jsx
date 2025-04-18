@@ -40,7 +40,7 @@ export const NAVIGATION_LINKS = [
 
 export const PROFILE = {
   name: "Just Hilman ",
-  info: "Python Developer Specializing in Data Engineering for Machine Learning Solutions.",
+  info: "Python Developer Specializing in Data Engineering for Data Solutions. Currently on a Mission to Turn Data Chaos into Clarity🪄",
 };
 
 export const ABOUT = {
@@ -52,48 +52,48 @@ export const ABOUT = {
 
 export const PROJECTS = [
   {
-    title: "AI Chatbot",
+    title: "AI Chat Assistant",
     subtitle:
-      "A full-stack chatbot built with Django, OpenAI, and MongoDB.",
+      "An intelligent English-learning chat assistant built with Python, powered by Google Gemini and Whatsapp API. This AI-driven tool engages users in real-time conversations to boost language skills, offering grammar tips, vocabulary suggestions, and natural dialogue flow. A perfect blend of AI, backend engineering, and educational innovation.",
     image: image1,
   },
   {
-    title: "Social Media App",
-    subtitle:
-      "A social media application developed using Django and Firebase.",
-    image: image2,
-  },
-  {
     title: "Netflix Clone",
-    subtitle: "A netflix clone built with Django and PostgreSQL.",
+    subtitle: "A dynamic Netflix clone crafted with Django and PostgreSQL, designed to mirror the look and feel of the popular streaming giant. Features include user authentication, movie/show browsing, and a sleek UI for an immersive viewing experience.",
     image: image3,
   },
   {
-    title: "Diabetes Prediction App",
-    subtitle:
-      "A personal portfolio website that can predict diabetes, built with Flask.",
-    image: image4,
-  },
-  {
-    title: "Weather Dashboard",
-    subtitle:
-      "A weather dashboard application built with React.js and Django.",
-    image: image5,
-  },
-  {
-    title: "Blog Platform",
-    subtitle:
-      "A blogging platform developed with Python, React and PostgreSQL.",
-    image: image6,
-  },
-  {
     title: "Spotify Clone",
-    subtitle: "A Spotify clone app developed with React and Django.",
+    subtitle: "A full-featured Spotify clone built with React and Django, replicating the sleek UI and core functionalities of the original platform. Enjoy seamless music browsing, playback, and playlist management in a responsive, modern interface.",
     image: image7,
   },
   {
-    title: "Realtime Chat App",
-    subtitle: "A Realtime Chat App developed with Python and fastAPI.",
+    title: "Modern Blogging Platform (On-Going)",
+    subtitle:
+      "A full-stack blogging platform built with Python, React, and PostgreSQL — designed for seamless writing, smooth performance, and a clean user experience from backend to frontend.",
+    image: image6,
+  },
+  {
+    title: "Diabetes Prediction Web App — Built with Flask",
+    subtitle:
+    "A project that predicts diabetes using machine learning. Built with Flask, starts with EDA and feature engineering to prepare public health data. Multiple models (KNN, SVC, Random Forest, Logistic Regression, Decision Tree) were trained and evaluated, with the most accurate one deployed in the app.",
+    image: image4,
+  },
+  {
+    title: "Movie Recommendation System",
+    subtitle:
+    "An intelligent app that personalizes anime suggestions based on user activity. Powered by real-world data from MyAnimeList.com, this project delivers tailored recommendations to enhance user experience and engagement.",
+    image: image5,
+  },
+  {
+    title: "End-to-End Data Pipeline with GCP",
+    subtitle:
+      "This project simulates the real-world workflow of a data engineer using the Google Cloud Platform. It starts with collecting data from APIs, followed by smart data modeling and ETL processing: raw data is ingested into Google Cloud Storage, transformed through intuitive pipelines built with Mage AI, and then loaded into BigQuery for efficient querying. Finally, actionable insights are visualized using Looker Studio, closing the loop from ingestion to impactful data storytelling.",
+    image: image2,
+  },
+  {
+    title: "Realtime Data Streaming Pipeline",
+    subtitle: "This real-time data streaming pipeline fetches data from APIs and processes it using a robust tech stack: Apache Airflow, Python, Kafka, Zookeeper, Apache Spark, and Cassandra—all orchestrated within Docker containers. Designed for high-throughput, low-latency data flow, this project is a testament to end-to-end streaming architecture and real-world big data engineering.",
     image: image8,
   },
 ];
@@ -122,7 +122,7 @@ export const SKILLS = [
   {
     icon: <SiMongodb className="text-4xl lg:text-6xl text-green-600" />,
     name: "MongoDB",
-    experience: "2+ years",
+    experience: "1+ years",
   },
   {
     icon: <GrDocker className="text-4xl lg:text-6xl text-sky-400" />,
