@@ -16,6 +16,7 @@ Script
 - `npm install -D tailwindcss postcss autoprefixer`
 - `npx tailwindcss init -p`
 - `npm run dev` - to start react server
+- `npm run build` - to build for deploying the website
 
 ### Built With
 
