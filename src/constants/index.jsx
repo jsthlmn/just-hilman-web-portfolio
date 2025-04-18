@@ -3,8 +3,9 @@ import {
   FaGithub,
   FaLinkedin,
   FaFacebook,
-  FaDiscord,
+  FaYoutube,
   FaInstagram,
+  FaY,
 } from "react-icons/fa6";
 
 import { DiPython } from "react-icons/di";
@@ -174,8 +175,8 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://discord.com/jsthlmn",
-    icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
+    href: "https://www.youtube.com/@jsthlmn",
+    icon: <FaYoutube fontSize={25} className="hover:opacity-80" />,
   },
   {
     href: "https://instagram.com/jsthlmn",
