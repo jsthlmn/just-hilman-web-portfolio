@@ -1,4 +1,3 @@
-import video from '../assets/video.mp4'
 import aiImage from '../assets/ai.gif'
 import { ACHIEVEMENT } from '../constants'
 import { motion } from 'framer-motion'
