@@ -14,6 +14,7 @@ import { SiApachehadoop } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { GrDocker } from "react-icons/gr";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { SiApachekafka } from "react-icons/si";
 
 import image1 from "../assets/project1.png";
 import image2 from "../assets/project2.png";
@@ -110,8 +111,8 @@ export const SKILLS = [
     experience: "1.5+ years",
   },
   {
-    icon: <SiApachehadoop className="text-4xl lg:text-6xl text-yellow-400" />,
-    name: "Apache Hadoop",
+    icon: <SiApachekafka className="text-4xl lg:text-6xl text-white-400" />,
+    name: "Confluent Kafka",
     experience: "1+ year",
   },
   {
