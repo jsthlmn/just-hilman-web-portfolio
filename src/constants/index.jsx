@@ -15,6 +15,9 @@ import { SiMongodb } from "react-icons/si";
 import { GrDocker } from "react-icons/gr";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiApachekafka } from "react-icons/si";
+import { SiCodewars } from "react-icons/si";
+import { SiHackerrank } from "react-icons/si";
+import { SiLeetcode } from "react-icons/si";
 
 import image1 from "../assets/project1.png";
 import image2 from "../assets/project2.png";
@@ -196,3 +199,21 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
+
+export const BRAIN_WORKOUT = [
+  {
+    href: "https://www.codewars.com/users/jsthlmn",
+    name: "Codewars",
+    icon: <SiCodewars fontSize={25} className="hover:opacity-80"/>
+  },
+  {
+    href: "https://www.hackerrank.com/profile/jsthlmn",
+    name: "Hackerrank",
+    icon: <SiHackerrank fontSize={25} className="hover:opacity-80"/>
+  },
+  {
+    href: "https://leetcode.com/u/jsthilman/",
+    name: "Leetcode",
+    icon: <SiLeetcode fontSize={25} className="hover:opacity-80"/>
+  }
+]
