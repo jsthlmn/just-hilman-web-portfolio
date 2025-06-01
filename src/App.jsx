@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Testimonials from './components/Testimonials'
+import Exercise from './components/Exercise'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 
 
@@ -21,6 +22,7 @@ const App = () => {
       <Achievements />
       <Testimonials />
       <ContactForm />
+      <Exercise/>
       <Footer />
     </main>
   )
